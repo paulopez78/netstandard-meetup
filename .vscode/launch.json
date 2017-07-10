@@ -1,0 +1,29 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/ConsoleApp/bin/Debug/netcoreapp2.0/ConsoleApp.dll",
+            "args": [],
+            "cwd": "${workspaceRoot}/ConsoleApp",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": ".NET Framework 461 Launch (console)",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceRoot}/ConsoleApp/bin/Debug/net461/ConsoleApp.exe",
+            "args": [],
+            "cwd": "${workspaceRoot}/ConsoleApp",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
