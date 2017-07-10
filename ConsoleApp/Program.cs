@@ -8,14 +8,10 @@ namespace ConsoleApp
         static void Main(string[] args)
         {
             Logger.Log("Starting app");
-            
-            Logger.LogInfo("Some info data");
 
-            Logger.LogDebug("Some debug data");
+            Console.WriteLine("Running my Awesome Console App");
 
-            Console.WriteLine(Logger.Dump());
-
-            Logger.SaveLog("consoleapp-log.xml");
+            Logger.Log("Finishing app");
         }
     }
 }
