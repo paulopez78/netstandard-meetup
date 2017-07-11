@@ -6,7 +6,7 @@
             "type": "clr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/ConsoleApp/bin/Debug/net45/ConsoleApp.exe",
+            "program": "${workspaceRoot}/ConsoleApp/bin/Debug/net461/ConsoleApp.exe",
             "args": [],
             "cwd": "${workspaceRoot}/ConsoleApp",
             "console": "internalConsole",
